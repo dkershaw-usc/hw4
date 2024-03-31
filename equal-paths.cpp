@@ -25,6 +25,7 @@ int pathLen(Node * root)
 bool equalPaths(Node * root)
 {
     // Add your code below
+    //
   if(pathLen(root->left) == pathLen(root->right))
   {
     return true;
